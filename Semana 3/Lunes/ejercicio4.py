@@ -1,0 +1,13 @@
+word = input("Please enter a word")
+word = word.lower()
+a = word.count("a")
+e = word.count("e")
+i = word.count("i")
+o = word.count("o")
+u = word.count("u")
+
+print("A:",a)
+print("E:",e)
+print("I:",i)
+print("O:",o)
+print("U:",u)
